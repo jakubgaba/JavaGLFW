@@ -19,7 +19,7 @@ public class Initialize {
         glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
         glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
 
-        window = glfwCreateWindow(1200, 800, "TARNISHED", 0, 0);
+        window = glfwCreateWindow(800, 600, "TARNISHED", 0, 0);
         if (window == 0) {
             throw new RuntimeException("Failed to create the GLFW window");
         }
